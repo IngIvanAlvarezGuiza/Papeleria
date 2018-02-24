@@ -1,0 +1,5 @@
+D:\Sistemas\Papeleria\Papeleria\modelo\bin\Debug\modelo.dll
+D:\Sistemas\Papeleria\Papeleria\modelo\bin\Debug\modelo.pdb
+D:\Sistemas\Papeleria\Papeleria\modelo\obj\Debug\modelo.dll
+D:\Sistemas\Papeleria\Papeleria\modelo\obj\Debug\modelo.pdb
+D:\Sistemas\Papeleria\Papeleria\modelo\obj\Debug\modelo.csprojResolveAssemblyReference.cache

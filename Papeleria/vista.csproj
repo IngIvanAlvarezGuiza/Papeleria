@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{566406D0-BE1B-410C-A327-5B8B1BE465DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Papeleria</RootNamespace>
+    <AssemblyName>Papeleria</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmListaAsentamientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaAsentamientos.Designer.cs">
+      <DependentUpon>FrmListaAsentamientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaCategorias.Designer.cs">
+      <DependentUpon>FrmListaCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaClientes.Designer.cs">
+      <DependentUpon>FrmListaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaEmpleados.Designer.cs">
+      <DependentUpon>FrmListaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaEstados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaEstados.Designer.cs">
+      <DependentUpon>FrmListaEstados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaMunicipios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaMunicipios.Designer.cs">
+      <DependentUpon>FrmListaMunicipios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaProductos.Designer.cs">
+      <DependentUpon>FrmListaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegAsentamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegAsentamiento.Designer.cs">
+      <DependentUpon>FrmRegAsentamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegCategoria.Designer.cs">
+      <DependentUpon>FrmRegCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegCliente.Designer.cs">
+      <DependentUpon>FrmRegCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegEmpleado.Designer.cs">
+      <DependentUpon>FrmRegEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegEstado.Designer.cs">
+      <DependentUpon>FrmRegEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegMunicipio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegMunicipio.Designer.cs">
+      <DependentUpon>FrmRegMunicipio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegVenta.Designer.cs">
+      <DependentUpon>FrmRegVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFrmLista.cs" />
+    <Compile Include="IFrmReg.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmListaAsentamientos.resx">
+      <DependentUpon>FrmListaAsentamientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaCategorias.resx">
+      <DependentUpon>FrmListaCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaClientes.resx">
+      <DependentUpon>FrmListaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaEmpleados.resx">
+      <DependentUpon>FrmListaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaEstados.resx">
+      <DependentUpon>FrmListaEstados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaMunicipios.resx">
+      <DependentUpon>FrmListaMunicipios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaProductos.resx">
+      <DependentUpon>FrmListaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegAsentamiento.resx">
+      <DependentUpon>FrmRegAsentamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegCategoria.resx">
+      <DependentUpon>FrmRegCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegCliente.resx">
+      <DependentUpon>FrmRegCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegEmpleado.resx">
+      <DependentUpon>FrmRegEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegEstado.resx">
+      <DependentUpon>FrmRegEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegMunicipio.resx">
+      <DependentUpon>FrmRegMunicipio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegVenta.resx">
+      <DependentUpon>FrmRegVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\datos\datos.csproj">
+      <Project>{da397414-f0b9-4bf0-8fad-b134419dc1f3}</Project>
+      <Name>datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\modelo\modelo.csproj">
+      <Project>{e0d9085a-f39a-4d27-a0af-1d00f1fc8df3}</Project>
+      <Name>modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
